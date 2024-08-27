@@ -1,6 +1,6 @@
 package com.ohgiraffers.section02;
 
-public class Exam1 {
+public class 실습문제1과2 {
 
     public static void main(String[] args) {
 
