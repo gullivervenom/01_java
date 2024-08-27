@@ -35,7 +35,7 @@ public class Application2 {
         int inum ; // 4byte
         long lnum; //8byte
 
-        /* 필기. 실수를 취급한느 자료형은 2가지가 있다. */
+        /* 필기. 실수를 취급하는 자료형은 2가지가 있다. */
         float fnum; // 4byte
         double dnum; // 8byte
 

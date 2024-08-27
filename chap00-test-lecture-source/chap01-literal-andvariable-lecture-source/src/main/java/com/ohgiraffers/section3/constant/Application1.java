@@ -26,9 +26,9 @@ public class Application1 {
         /* 목차. 1. 상수 선언*/
         final int AGE; // 상수는 변수와의 차별성을 위해 대문자로 상수명을 짓는다.
         int age;
-
-        System.out.println("age = " + age);
-        System.out.println("AGE = " + AGE);
+//
+//        System.out.println("age = " + age);
+//        System.out.println("AGE = " + AGE);
 
         /*목차. 2. 값 초기화(대입) */
         AGE = 20;
