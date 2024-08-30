@@ -21,6 +21,7 @@ public class Calculator {
 
 
 
+
         /* title.  */
         /* comment. */
         /* index. */
@@ -35,5 +36,7 @@ public class Calculator {
     public static int maxNumberOf(int first, int second) {
 
         return (first > second) ? first : second;
+
+
     }
 }
