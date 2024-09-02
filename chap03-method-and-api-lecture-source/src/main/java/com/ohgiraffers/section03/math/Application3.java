@@ -26,7 +26,7 @@ public class Application3 {
         System.out.println("randomNumber3 = " + randomNumber3);
 
         // -127 ~ 128
-        int randomNumber4 = random.nextInt(128) -127;
+        int randomNumber4 = random.nextInt(256) -127;
         System.out.println("randomNumber4 = " + randomNumber4);
         
         
