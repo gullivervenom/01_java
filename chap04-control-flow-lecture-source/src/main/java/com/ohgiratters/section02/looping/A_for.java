@@ -158,12 +158,68 @@ public class A_for {
 
 
         }
-        System.out.println("1 부터 " + random+ sum3);
+        System.out.println("1 부터 " + random+ "까지의 합은 : "  + sum3);
 
     }
-       /* title.  */
-       /* comment. */
-       /* index. */
+
+
+    public void testForExample4(){
+        /* comment.
+        *   숫자 2 개를 입력 받아 작은 수에서 큰 수까지의 합을 구하시오
+        *   단, 두 숫자는 같지 않다는 가정하에 진행한다.
+        * */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("첫 번째 정수 입력 : ");
+        int first = sc.nextInt();
+        System.out.print("두 번째 정수 입력 : ");
+        int second = sc.nextInt();
+
+        
+        int sum = 0;
+
+
+        //만약 첫 번째 입력 정수가 더 큰 경우
+        if(first > second){
+            for (int i = second; i <= first; i++)
+            sum += i;
+
+        }else{
+            for (int i = first; i <= second; i++)
+                sum += i;
+
+        }
+        //만약 두 번째 입력 정수가 더 큰 경우
+
+        System.out.println("sum = " + sum);
+
+
+    }
+
+    public void printSimpleGugudan(){
+        /* comment.
+        *   스캐너로 2 ~ 9 사이의 구구단 받아
+        *   2~ 9 사이인 경우 구구단을 출력하고,
+        *   그렇지 않은 경우 "반드시 2 ~ 9 사이의 양수를 입력해주세요."
+        *   출력해보자.
+        * */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("출력할 구구단의 단 수를 입력해주세요 : ");
+        int dan = sc.nextInt();
+
+        if(dan >=2 && dan <= 9){
+            for(int su = 1; su <= 9; su++){
+                System.out.println(dan + " * " + su + " = " + (dan*su));
+            }
+
+
+        }else{
+            // dan 이라고 하는 값이 2 ~ 9 사이가 아닌 경우 작성 할 영역
+            System.out.println("반드시 2 ~9 사이의 양수를 입력해주세요!!");
+        }
+
+
+
+    }
 
 }
 
