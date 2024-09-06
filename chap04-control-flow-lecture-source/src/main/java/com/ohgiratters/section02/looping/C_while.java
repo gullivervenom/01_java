@@ -16,11 +16,11 @@ public class C_while {
 
      /* index. 1 부터 10 까지 1씩 증가시키면서 i 값 출력하는 반복문  */
      for(int i = 1; i <= 10; i++){
-         System.out.println(i);
+         System.out.print(i);
      }
      int i = 1;
      while(i <= 10){
-         System.out.println(i);
+         System.out.print(i);
          i++;
      }
  }

@@ -31,11 +31,11 @@ public class Application {
 //
 //
 //
-//        D_switch d = new D_switch();
-//        d.testSwitchStatement();
-//
-//        D_switch d = new D_switch();
-//        d.testSwitchVendingMachine();
+        D_switch d = new D_switch();
+        d.testSwitchStatement();
+
+
+        d.testSwitchVendingMachine();
 //
 //        test t1 = new test();
 //        t1.test1();
@@ -43,8 +43,8 @@ public class Application {
 //        test t2 = new test();
 //        t2.test2();
 
-        test t3 = new test();
-        t3.test3();
+//        test t3 = new test();
+//        t3.test3();
 
 
 

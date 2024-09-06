@@ -19,14 +19,14 @@ public class Application {
 //        b.printTriangleStars();
 ////        b.printStarInputRowTimes();
 //
-//        C_while c = new C_while();
-////        c.testWhileStatement();
-////        c.whileExample();
-//        c.whileExample2();
+        C_while c = new C_while();
+        c.testWhileStatement();
+        c.whileExample();
+        c.whileExample2();
 
-
-        D_doWhile d = new D_doWhile();
+//
+//        D_doWhile d = new D_doWhile();
 //        d.testDowhileStatement();
-        d.doWhileexample();
+//        d.doWhileexample();
     }
 }
