@@ -34,7 +34,7 @@ public class FinalFieldTest {
     }
 
     /* index. 2. static 필드에 final 키워드 사용 */
-    private static final int STATIC_NUM; // 0
+//    private static final int STATIC_NUM; // 0
     private static final double PI = 3.14;
     /* comment.
     *   static 이 붙은 키워드는 생성자를 이용한 초기화가 불가능하다.
@@ -58,6 +58,7 @@ public class FinalFieldTest {
 
 
 }
+
 
 /* title.  */
 /* comment. */
